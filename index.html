@@ -3,12 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de descarga oficial de Abiliz Krypton">
     <title>Descarga de Abiliz Krypton</title>
     <link rel="icon" href="01.png" type="image/x-icon">
+        <style>
+        :root {
+            --primary-color: #4a90e2;
+            --text-color: #333;
+            --background-color: #f5f5f5;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+            padding: 2rem;
+            background-image: url('01.png'); /* Fondo con la imagen */
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            color: #666;
+            margin-bottom: 2rem;
+        }
+
+        .download-button {
+            display: inline-block;
+            background-color: #8d8d8d; /* Color inicial */
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+            margin-top: 1rem;
+        }
+
+        .download-button:hover {
+            background-color: #357abd;
+            transform: translateY(-2px);
+        }
+
+        .warning {
+            margin-top: 1rem;
+            padding: 1rem;
+            background-color: #fff3cd;
+            border: 1px solid #ffeeba;
+            border-radius: 4px;
+            color: #856404;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
 <body>
-    <h1>Descarga la app aquí</h1>
-    <h2>Descárgalo en tu celular</h2>
-    <a href="https://drive.google.com/uc?export=download&id=1IKQHstuwO9cOMy-5mRSwOJX_7nlRpMcw" download>Descargar app</a>
+    <div class="container">
+        <h1>Descarga de Abilix Krypton</h1>
+        <h2>Descárgalo en tu celular</h2>
+
+        <a href="https://drive.google.com/uc?export=download&id=1IKQHstuwO9cOMy-5mRSwOJX_7nlRpMcw" 
+           class="download-button" 
+           download
+           aria-label="Descargar Abilix Krypton">
+            📱 Descargar app
+        </a>
+        
+        <div class="warning">
+            <p>⚠️ Nota: El archivo es seguro pero puede mostrar una advertencia de Google Drive durante la descarga.</p>
+        </div>
+      <p>Tiene seguridad de <img src="data:image/png;base64,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" height="18px" weidth"18px"> KNOX por Samsung</p>
+  </div>
 </body>
 </html>
